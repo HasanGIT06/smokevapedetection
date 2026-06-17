@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['Cigarette', 'Person', 'Smoke', 'Vape']
+
+roboflow:
+  workspace: visionwork
+  project: smoking_person
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/visionwork/smoking_person/dataset/1
