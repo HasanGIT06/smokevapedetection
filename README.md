@@ -26,6 +26,6 @@ This project applies **YOLOv8 object detection** to identify cigarettes, vapes, 
 ## 📊 Results
 
 - Successfully detected **Person, Vape, and Cigarette** with relatively strong performance.
-- The model still faces challenges in detecting **Smoke** due to its visual similarity with the background and cigarette objects.
+- The model still faces challenges in detecting **Smoke** due to its visual similarity with the background and cigarette objects and its unpredictable shape and translucency due to lighting. 
 - Further improvements can be achieved by adding more smoke data and increasing training epochs, and further data collection in order to better balance the classes.
 
